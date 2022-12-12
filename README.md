@@ -1,8 +1,33 @@
-   ____                                        ____                          _
-  / ___|   _ _ __ _ __ ___ _ __   ___ _   _   / ___|___  _ ____   _____ _ __| |_ ___ _ __
- | |  | | | | '__| '__/ _ \ '_ \ / __| | | | | |   / _ \| '_ \ \ / / _ \ '__| __/ _ \ '__|
- | |__| |_| | |  | | |  __/ | | | (__| |_| | | |__| (_) | | | \ V /  __/ |  | ||  __/ |
-  \____\__,_|_|  |_|  \___|_| |_|\___|\__, |  \____\___/|_| |_|\_/ \___|_|   \__\___|_|
-                                      |___/
+# Currency Converter
 
+## Steps
 
+1. Register to https://apilayer.com/
+2. Copy the API Key
+3. Install this package
+
+```
+$ npm install -g @nusendra/currency-converter
+```
+
+4. Paste the API Key
+
+```
+$ currency-converter -api <your_api_key>
+```
+
+5. Ready to use.
+
+## Options
+
+By default it will convert your currency from USD to IDR
+
+```
+$ currency-converter <amount>
+```
+
+If you want to change the currency, just change the first and second parameter, and the amount in third.
+
+```
+$ currency-converter SGD IDR 2000
+```
