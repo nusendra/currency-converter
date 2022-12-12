@@ -57,7 +57,7 @@ program
 const options = program.opts();
 
 if (options.apikey) {
-  let writeStream = fs.createWriteStream(apiKeyFileName);
+  let writeStream = fs.createWriteStream(`~/.config/${apiKeyFileName}`);
   writeStream.write(process.argv[3]);
   writeStream.end();
 

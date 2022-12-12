@@ -1,6 +1,6 @@
 {
   "name": "@nusendra/currency-converter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Nusendra Hanggarawan",
   "description": "Convert the currency / exchange rates",
   "main": "dist/index.js",
