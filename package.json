@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "license": "MIT",
+  "bin": {
+    "currency-converter": "./dist/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "ts-node-dev src/index.ts"
