@@ -1,8 +1,11 @@
 {
-  "name": "currency-converter",
+  "name": "@nusendra/currency-converter",
   "version": "1.0.0",
+  "author": "Nusendra Hanggarawan",
+  "description": "Convert the currency / exchange rates",
   "main": "dist/index.js",
   "license": "MIT",
+  "homepage": "https://github.com/nusendra/currency-converter.git",
   "bin": {
     "currency-converter": "./dist/index.js"
   },
@@ -22,5 +25,14 @@
     "prettier": "^2.8.1",
     "ts-node-dev": "^2.0.0",
     "typescript": "^4.9.4"
+  },
+  "files": ["dist/", "README.md"],
+  "keywords": ["currency", "converter", "exchange rate"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nusendra/currency-converter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nusendra/currency-converter/issues"
   }
 }
